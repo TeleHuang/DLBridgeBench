@@ -1,5 +1,8 @@
 # TorchBridgeBench Claude Code Plugin
 
+> Repository renamed from `TeleHuang/TBBCC` to `TeleHuang/DLBridgeBench` on 2026-10-22.
+> The benchmark/plugin name `TorchBridgeBench` (and the `TBBCC` abbreviation) is unchanged.
+
 TorchBridgeBench evaluates PyTorch-to-MindSpore/Ascend migration tools from the
 user's point of view. This plugin gives you a deterministic benchmark core plus
 Claude Code commands for running cases, suites, and environment checks.
@@ -554,7 +557,7 @@ and requires Matplotlib.
 
 ## Versioning
 
-Repository: https://github.com/TeleHuang/TBBCC
+Repository: https://github.com/TeleHuang/DLBridgeBench
 
 Current release baseline: `0.1.0`.
 
