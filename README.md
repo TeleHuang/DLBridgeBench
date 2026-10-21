@@ -31,6 +31,18 @@ Inside Claude Code, confirm the plugin is loaded:
 /torchbridgebench:inspect
 ```
 
+Start a recorded manual observation trial (the interactive session becomes the
+migration agent; requires the sibling `HTLsAgentsChat` checkout):
+
+```text
+/torchbridgebench:observe 把 L1 的 gelu 和 relu 适配到 torchax，先读官方文档
+```
+
+The plugin's `hooks/hooks.json` records prompts, tool calls and transcripts into
+the trial's `observe/` directory when an observation marker is present; without a
+marker the recorder exits silently. Results are labelled `manual_observation`,
+not formal paper data.
+
 Run numeric-only GPU-vs-NPU comparison from already collected model artifacts:
 
 ```text
